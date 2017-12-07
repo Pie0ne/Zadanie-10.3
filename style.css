@@ -1,0 +1,39 @@
+
+ #carousel {
+ 	border: 2px solid black;
+ 	width: 400px;
+ 	height: 200px;
+ 	overflow: hidden;
+ 	margin: auto;
+ 	margin-top: 250px;
+ 	
+ }
+
+
+#carousel ul {
+	margin: 0 ;
+	padding: 0;
+	width: 2000px;
+}
+
+ #carousel ul li  {
+	list-style-type: none;
+	float:left;
+	position: relative;
+}
+
+#left-arrow  {
+	position: absolute;
+	top: 335px;
+	left: 780px;
+}
+
+#right-arrow {
+	position: absolute;
+	top: 335px;
+	left: 1115px;
+}
+.arrows i {
+	font-size: 30px;
+	
+}
