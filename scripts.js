@@ -14,9 +14,6 @@ $(function() {
 		lastItem.after(firstItem)
 		carouselList.css({marginLeft:0});
 	}
-
-	
-
 });
 
 
